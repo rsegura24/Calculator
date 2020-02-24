@@ -6,8 +6,11 @@ Created on Mon Feb 24 11:30:57 2020
 """
 
 class Calculator:
-    
-    urbag_constant = 67.8
-    
-    def sum(a,b):
+      
+    def sum(a, b):
         return a + b
+    
+    def applyUrbag(a, b):
+        urbag_constant = 67.8
+        result = a*urbag_constant + b
+        return result
