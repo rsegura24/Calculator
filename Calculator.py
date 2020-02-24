@@ -14,3 +14,6 @@ class Calculator:
         urbag_constant = 67.8
         result = a*urbag_constant + b
         return result
+    
+    def pirueta(a, b, c):
+        return a*b*b*c*c*c
